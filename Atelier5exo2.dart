@@ -13,5 +13,5 @@ on FormatException catch (e) {
   //capturer le type d'exception: FormatException
  print("Erreur de format : $e");
 }
-finally{//un bloc qui s'execute toujours
+finally{//un bloc qui s'execute toujours si ya une exception ou pas
 print("Fin d'operation");}}
